@@ -1,11 +1,10 @@
 # StartUp-Me
 O StartUp-Me é um projeto acadêmico que visa o aprendizado de HTML, CSS e um pouquinho de Javascript.  
 Com a metodologia de "Aprendizado baseado em projeto".  
-Acompanhe o desenvolvimento e veja o projeto online em [ubirajarapelli.github.io/startupme](http://ubirajarapelli.github.io/startupme/).  
 
 ## Layout do Projeto
 ### Imagem do layout  
-![Layout do Projeto StartUp-Me](https://github.com/ubirajarapelli/startupme/raw/master/startup-me_layout.png)
+![Layout do Projeto StartUp-Me](startup-me_layout.png)
 
 ### Tipologias Utilizadas
 As tipologias utilizadas, familias e variações podem ser encontrada no [Google Fonts](https://www.google.com/fonts)  
