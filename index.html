@@ -1,10 +1,140 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>-->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
+        <a class="navbar-brand" href="#">StartUp-Me</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Apps</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h3 class="font-italic">Bem vindo ao nosso estúdio</h3>
+      <h2 class="text-uppercase">Crie agora seu app para sua empresa</h2>
+      <a href="#">Saiba mais</a>
+    </section>
+    <section>
+      <h4 class="text-uppercase">Sua empresa ao alcance das mãos dos seus clientes</h4>
+      <p>Nós da <strong>StartUp-Me</strong> conectamos o seu serviço ou produto com seu cliente, através de Apps Mobile
+        para Smartphones e Tablets, desenvolvemos para sua empresa com a sua cara da sua empresa, para você pensar
+        apenas no seu negócio e deixar o desenvolvimento com a gente. </p>
+      <h5>Já criamos aplicativos para diversos seguimentos</h5>
+      <ul>
+        <li>Viagens e Turismo</li>
+        <li>Esportes e Fitness</li>
+        <li>Prestação de Serviços</li>
+        <li>Bares e Restaurantes</li>
+        <li>E-commerce e lojas físicas</li>
+        <li>Educação e Treinamentos</li>
+      </ul>
+      <p>Seu ramo de atuação não está por aqui? Entre em contato, certamente podemos te ajudar</p>
+      <a href="#">Entre em contato</a>
+    </section>
+    <section>
+      <h5>Pessoas incríveis trabalhando juntas para obter o melhor resultado</h5>
+      <p>Estas são algumas pessoas que fazem parte do nosso experiente time que compõe a <strong>StartUp-Me</strong>.</p>
+      <ul>
+        <li><img src="images/joao-ricardo-b-sutter.jpg" alt="Imagem de perfil de João Ricardo B. Sutter">
+          <p><strong>João Ricardo B. Sutter</strong></p>
+          <p>Fullstack Developer</p>
+        </li>
+        <li><img src="images/patricia-mascarenhas.jpg" alt="Imagem de perfil de Patrícia Mascarenhas">
+          <p><strong>Patrícia Mascarenhas</strong></p>
+          <p>UX/UI Specialist</p>
+        </li>
+        <li><img src="images/miguel-dos-santos-arcanjo.jpg" alt="Imagem de perfil de Miguel dos Santos Arcanjo">
+          <p><strong>Miguel dos Santos Arcanjo</strong></p>
+          <p>Senior Designer</p>
+        </li>
+        <li><img src="images/jean-carlos-madeiro.jpg" alt="Imagem de perfil de Jean Carlos Madeiro">
+          <p><strong>Jean Carlos Madeiro</strong></p>
+          <p>Project Manager</p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h4 class="text-uppercase">Porque a Startup-Me é a melhor escolha para seu App</h4>
+      <p>Os Apps na StartUp-Me segue os padões atuais para desenvolvimento mobile, juntamente com metodologias ágeis.
+        todos os projetos incluem análise de viabilidade de mercado, concepção de User Interface e User experience,
+        Criação Gráfica e Plano de Marketing, sempre buscando o maior nível de engajamentos dos clientes.
+        Aliando o melhor custo/ prazo/ benefício.</p>
+      <h5>Extraímos o máximo dos aparelhos utilizando os recursos nativos</h5>
+      <p>Nossos Apps se integram com as funcionalidades e recursos nativos dos seu aparellho como: Câmera, GPS, Galeria
+        de fotos, Áudio e Vídeo, Calendários, Lista de contatos, potencializamos uso do Acelerômetro, do Giroscópio e
+        muito mais!</p>
+      <img src="images/native-resources.png" alt="Composição de imagem com uma lente fotográfica, um mapa e um ícone de
+      calendário ">
+    </section>
+    <section>
+      <h5>Desenvolvemos apps para todas as plataformas mobile, compatível com todos os celulares e
+        dispositivos móvies</h5>
+      <p>Todos os Apps produzidos por nós da StartUp-Me são multi-plataforma, funcionam em aparelhos com
+        IOS(iPhone/ iPad), Android, Windows Phone e FirefoxOS.</p>
+    </section>
+    <section>
+      <h4 class="text-uppercase">Entre em contato conosco</h4>
+      <p>Preencha o formulário abaixo e nos envie um orçamento, utilize também para nos enviar dúvidas e/ ou sugestões.</p>
+      <form action="">
+        <p>Campos com * são de preenchimento obrigatório</p>
+        <label for="name">Nome</label>
+        <input id="name" type="text">
+        <label for="email">E-mail</label>
+        <input id="email" type="email">
+        <label for="phone">Telefone</label>
+        <input id="phone" type="tel">
+        <label for="request">O que você deseja?</label>
+        <select name="request" id="request">
+          <option value="">Orçamento</option>
+          <option value="">Orçamento 2</option>
+          <option value="">Orçamento 3</option>
+          <option value="">Orçamento 4</option>
+          <option value="">Orçamento 5</option>
+        </select>
+        <label for="message">Telefone</label>
+        <input id="message" type="text">
+        <button>Enviar</button>
+      </form>
+      <address>
+        <p>StartUp-Me Desenvolvimento de Software</p>
+        Av. Paulista, 1374 - Bela Vista, São Paulo - SP
+        Conj 01 Sala 107 - CEP 01311-300
+        E-mail: contato@startup-me.com.br
+        Telefone: 11 4178 7256
+      </address>
+    </section>
+  </main>
+  <footer>
+    <a href="#">Logo</a>
+    <nav>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">Linkedin</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+          integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous">
+  </script>
 </body>
 </html>
